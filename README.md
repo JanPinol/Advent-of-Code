@@ -3,7 +3,7 @@
 Collection of Advent of Code 2022 problems solved!
 | Day | Title | Solution |  Type  |
 |:---:|:-----:|:--------:|:------:|
-| 0   | <a href="https://github.com/JanPinol/Advent-of-Code/blob/main/2022/DayNSilver.java">Plantilla</a>     | Java     | Silver |
+| 0   | <a href="https://github.com/JanPinol/Advent-of-Code/blob/main/2022/DayNSilver.java">Plantilla</a>     | Java     | - |
 | 1   | <a href="https://github.com/JanPinol/Advent-of-Code/blob/main/2022/Day1Silver.java">-</a>     | Java     | Silver |
 | 1   | <a href="https://github.com/JanPinol/Advent-of-Code/blob/main/2022/Day1Gold.java">-</a>     | Java     | Gold   |
 | 2   | <a href="https://github.com/JanPinol/Advent-of-Code/blob/main/2022/Day2Silver.java">-</a>     | Java     | Silver |
