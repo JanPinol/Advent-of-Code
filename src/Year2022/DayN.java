@@ -1,5 +1,8 @@
+package Year2022;
+
 import java.io.*;
 import java.util.ArrayList;
+
 
 public class DayN {
     private ArrayList<String> inputString;
@@ -12,7 +15,9 @@ public class DayN {
 
 
     public void mainProcess() {
-
+        for (int i = 0; i < inputString.size(); i++) {
+            System.out.println(inputString.get(i));
+        }
 
     }
 
@@ -28,7 +33,7 @@ public class DayN {
     }
 
     public void readFile() {
-        try (BufferedReader br = new BufferedReader(new FileReader("Advent-of-Code/input.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("input.txt"))) {
             String line = br.readLine();
 
             while (line != null) {
