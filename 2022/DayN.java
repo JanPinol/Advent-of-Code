@@ -1,11 +1,11 @@
 import java.io.*;
 import java.util.ArrayList;
 
-public class DayNSilver {
+public class DayN {
     private ArrayList<String> inputString;
     //private ArrayList<Integer> inputInteger;
 
-    public DayNSilver() {
+    public DayN() {
         this.inputString = new ArrayList<>();
         //this.inputInteger = new ArrayList<>();
     }
@@ -18,7 +18,7 @@ public class DayNSilver {
 
     public static void main() {
         // Initiate constructor
-        DayNSilver main = new DayNSilver();
+        DayN main = new DayN();
 
         // Read input.txt file and fill input array string
         main.readFile();
