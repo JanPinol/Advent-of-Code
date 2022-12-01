@@ -28,7 +28,7 @@ public class DayNSilver {
     }
 
     public void readFile() {
-        try (BufferedReader br = new BufferedReader(new FileReader("input.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Advent-of-Code/input.txt"))) {
             String line = br.readLine();
 
             while (line != null) {
