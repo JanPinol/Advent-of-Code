@@ -10,8 +10,8 @@ Collection of Advent of Code Year2022 problems solved!
 | 2   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day2.java">Rock Paper Scissors</a>     | Java     | Gold   |
 | 3   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day3.java">Rucksack Reorganization</a>     | Java     | Silver |
 | 3   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day3.java">Rucksack Reorganization</a>     | Java     | Gold   |
-| 4   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day4.java">-</a>     | Java     | Silver |
-| 4   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day4.java">-</a>     | Java     | Gold   |
+| 4   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day4.java">Camp Cleanup</a>     | Java     | Silver |
+| 4   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day4.java">Camp Cleanup</a>     | Java     | Gold   |
 | 5   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day5.java">-</a>     | Java     | Silver |
 | 5   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day5.java">-</a>     | Java     | Gold   |
 | 6   | <a href="https://github.com/JanPinol/Advent-of-Code/tree/main/src/Year2022/Day6.java">-</a>     | Java     | Silver |

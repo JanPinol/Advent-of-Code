@@ -91,7 +91,7 @@ public class Day2 {
         main.readFile();
 
         // Execute the algorithm
-        //main.mainProcessDay2Silver();
+        main.mainProcessDay2Silver();
         main.mainProcessDay2Gold();
     }
 

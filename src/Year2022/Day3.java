@@ -87,7 +87,7 @@ public class Day3 {
         main.readFile();
 
         // Execute the algorithm
-        //main.mainProcessDay3Silver();
+        main.mainProcessDay3Silver();
         main.mainProcessDay3Gold();
     }
 
