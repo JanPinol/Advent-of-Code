@@ -30,8 +30,8 @@ public class Day5 {
         main.readFile();
 
         // Execute the algorithm
-        //main.mainProcessDay5Silver();
-        //main.mainProcessDay5Gold();
+        main.mainProcessDay5Silver();
+        main.mainProcessDay5Gold();
     }
 
     public void readFile() {
