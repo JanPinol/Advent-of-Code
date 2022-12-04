@@ -28,14 +28,8 @@ public class Day3 {
                         for (int k = 0; k < parts3.length ; k++) {
                             if (parts2[n].charAt(0) == parts3[k].charAt(0)) {
                                 if (Character.isUpperCase(parts1[j].charAt(0))){
-                                    System.out.print(parts1[j].charAt(0) - 38);
-                                    System.out.println(parts1[j]);
-
                                     total += parts1[j].charAt(0) - 38;
                                 }else {
-                                    System.out.print(parts1[j].charAt(0) - 96);
-                                    System.out.println(parts1[j]);
-
                                     total += parts1[j].charAt(0) - 96;
                                 }
                                 added = true;
@@ -77,6 +71,7 @@ public class Day3 {
                 }
             }
         }
+        System.out.println(total);
     }
 
     public static void main() {
