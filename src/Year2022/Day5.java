@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 
-
 public class Day5 {
+
     private ArrayList<String> inputString;
 
     public Day5() {
@@ -34,6 +34,7 @@ public class Day5 {
         main.mainProcessDay5Gold();
     }
 
+
     public void readFile() {
         try (BufferedReader br = new BufferedReader(new FileReader("input.txt"))) {
             String line = br.readLine();
@@ -46,4 +47,6 @@ public class Day5 {
             e.printStackTrace();
         }
     }
+
+
 }

@@ -17,6 +17,8 @@ public class Day3 {
     public void mainProcessDay3Gold() {
         int total = 0;
         for (int i = 0; i < inputString.size(); i++) {
+
+
             String[] parts1 = inputString.get(i).split("");
             String[] parts2 = inputString.get(i+1).split("");
             String[] parts3 = inputString.get(i+2).split("");
