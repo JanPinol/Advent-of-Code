@@ -15,11 +15,57 @@ public class Day6 {
     }
 
     public void mainProcessDay6Gold() {
+        String[] parts = inputString.get(0).split("");
+        int count = 14;
+        for (int i = 0; i < parts.length - 14; i++) {
+            boolean found = false;
+            String[] arr = new String[14];
+            for (int j = 0; j < 14; j++) {
+                arr[j] = parts[i + j];
+            }
 
+            for (int j = 0; j < arr.length; j++) {
+                for (int k = j + 1; k < arr.length; k++) {
+                    if (arr[j].equals(arr[k])) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+            if (!found) {
+                System.out.println(count);
+                break;
+            } else {
+                count++;
+            }
+        }
     }
 
     public void mainProcessDay6Silver() {
+        String[] parts = inputString.get(0).split("");
+        int count = 4;
+        for (int i = 0; i < parts.length - 3; i++) {
+            boolean found = false;
+            String[] arr = new String[4];
+            for (int j = 0; j < 4; j++) {
+                arr[j] = parts[i + j];
+            }
 
+            for (int j = 0; j < arr.length; j++) {
+                for (int k = j + 1; k < arr.length; k++) {
+                    if (arr[j].equals(arr[k])) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+            if (!found) {
+                System.out.println(count);
+                break;
+            } else {
+                count++;
+            }
+        }
     }
 
     public static void main() {
